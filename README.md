@@ -15,5 +15,5 @@ and [this](https://docs.microsoft.com/en-us/azure/active-directory/develop/activ
 `./gradlew run` will execute the application with a token embedded into the application. It will throw a TokenExpiredException as the token has obviously expired (but will dump the token's content
 nevetheless).
 
-`.gradlew run -Ptoken=eyJ0eXAiO ... MC5id0Iw` will execute the application with the specified token.
+`./gradlew run -Ptoken=eyJ0eXAiO ... MC5id0Iw` will execute the application with the specified token.
 
